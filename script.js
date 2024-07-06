@@ -5,11 +5,6 @@ formBtn.addEventListener("click", function getName(event) {
     var emailAddress = document.getElementById("emailAddress").value;
     var messageField = document.getElementById("messageField").value;
 
-    //console.log(contactName, emailAddress, messageField);
-
-    // var postName = document.getElementById("postFullName");
-    // postName.innerHTML = contactName;
-
     document.getElementById("postFullName").innerHTML = contactName;
 
     var postEmail = document.getElementById("postEmail");
